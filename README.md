@@ -42,3 +42,9 @@ datomic-console
 
 ```
 
+## About
+
+ * `/usr/local/var/datomic/data` is where all your data is stored.
+ * `/usr/local/var/datomic/transactor.properties` is the config used by the Datomic process.
+ * You can keep multiple version of datomic installed in `/usr/local/var/datomic` and activate them as needed.
+ * Consider swapping out the data directory when activating older versions.
